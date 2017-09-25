@@ -1,0 +1,67 @@
+/*CSS reset settings here*/
+*{
+ margin: 5px;
+ padding: 5px;
+}
+body{
+    background-color: rgb(18,53,91)
+}
+#wrapper{
+height: 700px;
+ width: 950px;
+ /*background-color: darkblue;*/
+ margin: 0px auto;
+ display: block;
+
+  }
+  #header,#location,#main_content,#navigation{
+      border-radius:10px;
+  }
+#header{
+ height: 40px;
+ background-color: #ce3036;
+ display: block;
+ }
+#navigation{
+ height: 500px;
+ width: 150px;
+ background-color: rgb(8,126,139);
+display: inline-block;
+position: relative;
+margin-top: 10px;
+}
+#location{
+ height: 500px;
+ width: 750px;
+ background-color: rgb(12,24,33);
+display: inline-block;
+position: relative;
+right: 5px;
+bottom: 25px;
+}
+
+#main_content{
+ height: 40px;
+ width: 920px;
+ background-color: rgb(92,102,114);
+ display: block;
+ position: relative;
+ right: 5px;
+ bottom: 25px;
+  margin-bottom: 100px;
+   }
+p{
+  color: white;
+}
+ span{
+      color: orange;
+ }
+#important{
+   font-size: 38px;
+}
+a, a:visited{
+    color: rgb(191,215,234);
+}
+ul, li{
+    color:rgb(191,215,234);
+}
